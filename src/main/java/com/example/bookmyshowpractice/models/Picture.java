@@ -10,7 +10,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-public class Show extends BaseClass{
+public class Picture extends BaseClass{
     @ManyToOne
     private Auditorium auditorium;
     private Date startTime;

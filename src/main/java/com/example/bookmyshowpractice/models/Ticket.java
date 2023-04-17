@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 public class Ticket extends BaseClass{
     @ManyToOne
-    private Show show;
+    private Picture picture;
     @OneToMany
     private List<Payment> payments;
     private double amount;
