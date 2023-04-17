@@ -11,7 +11,7 @@ import java.util.List;
 public class Auditorium extends BaseClass{
     private String name;
     @OneToMany(mappedBy = "auditorium")
-    private List<Show> shows;
+    private List<Picture> pictures;
 
     @ElementCollection
     @Enumerated(EnumType.ORDINAL)

@@ -10,7 +10,7 @@ import lombok.Setter;
 @Entity
 public class ShowSeatType extends BaseClass{
     @ManyToOne
-    private Show show;
+    private Picture picture;
     @ManyToOne
     private SeatType seatType;
     private double price;
