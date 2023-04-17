@@ -13,6 +13,6 @@ public class Seat extends BaseClass{
     @ManyToOne
     private SeatType seatType;
     private String name;
-    private int rowNumber;
-    private int colNumber;
+    private int rNumber;
+    private int cNumber;
 }
